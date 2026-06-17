@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Navbar, HeroSection, FeaturesSection, ProcessSection, Footer, GalleryPage, ContactPage } from "@/features/landing";
+import { Navbar, HeroSection, FeaturesSection, GallerySection, ProcessSection, Footer, GalleryPage, ContactPage } from "@/features/landing";
 import type { Page } from "@/features/landing";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <>
           <HeroSection onNavigateToGallery={() => handleNavigate('gallery')} />
           <FeaturesSection />
+          <GallerySection />
           <ProcessSection />
         </>
       )}

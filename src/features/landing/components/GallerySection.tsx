@@ -11,7 +11,8 @@ const images = [
   "/rug1.jpg",
   "/rug2.jpg",
   "/rug3.jpg",
-  "/rug4.jpg"
+  "/rug4.jpg",
+  "/rug5.jpg"
 ];
 
 export function GallerySection() {

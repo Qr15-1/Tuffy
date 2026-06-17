@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Navbar, HeroSection, FeaturesSection, ProcessSection, Footer, GalleryPage, ContactPage, Page } from "@/features/landing";
+import { Navbar, HeroSection, FeaturesSection, ProcessSection, Footer, GalleryPage, ContactPage } from "@/features/landing";
+import type { Page } from "@/features/landing";
 
 function App() {
   const [currentPage, setCurrentPage] = React.useState<Page>('home');

@@ -3,7 +3,7 @@ import { MessageSquare, FileText, Scissors, Heart } from "lucide-react";
 
 export function ProcessSection() {
   return (
-    <section className="pt-6 pb-20 bg-white relative">
+    <section className="pt-10 pb-20 bg-white relative">
       
       {/* Decoración: Hilo naranja de estambre en el lado derecho (oculto en móvil) */}
       <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-64 h-96 pointer-events-none z-20">

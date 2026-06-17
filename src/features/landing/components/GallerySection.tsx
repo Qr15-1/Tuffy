@@ -17,7 +17,7 @@ const images = [
 
 export function GallerySection() {
   return (
-    <section className="py-16 bg-white relative">
+    <section className="pt-2 pb-8 bg-white relative">
       
       {/* Decoración: Círculo Naranja arriba a la izquierda */}
       <div className="absolute -top-16 -left-16 w-40 h-40 rounded-full border-[12px] border-[#f58220] opacity-95 pointer-events-none z-20" />

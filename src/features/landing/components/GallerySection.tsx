@@ -8,10 +8,10 @@ import {
 import { motion } from "framer-motion";
 
 const images = [
-  "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1618331835717-801e976710b2?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=800&auto=format&fit=crop"
+  "/rug1.jpg",
+  "/rug2.jpg",
+  "/rug3.jpg",
+  "/rug4.jpg"
 ];
 
 export function GallerySection() {

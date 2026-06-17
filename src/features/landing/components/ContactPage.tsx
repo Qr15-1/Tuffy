@@ -62,11 +62,7 @@ export function ContactPage() {
   return (
     <section className="pt-32 pb-20 bg-white min-h-screen relative overflow-hidden flex items-center">
       
-      {/* Decoración: Círculo Naranja arriba a la izquierda */}
-      <div className="absolute -top-16 -left-16 w-40 h-40 rounded-full border-[12px] border-[#f58220] opacity-95 pointer-events-none z-20" />
-      
-      {/* Decoración: Círculo Naranja abajo a la derecha */}
-      <div className="absolute -bottom-16 -right-16 w-40 h-40 rounded-full border-[12px] border-[#f58220] opacity-95 pointer-events-none z-20" />
+
 
       <div className="container mx-auto px-6 lg:px-24 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-5xl mx-auto">

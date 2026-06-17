@@ -19,11 +19,7 @@ export function GallerySection() {
   return (
     <section className="pt-6 pb-6 bg-white relative">
       
-      {/* Decoración: Círculo Naranja arriba a la izquierda */}
-      <div className="absolute -top-16 -left-16 w-40 h-40 rounded-full border-[12px] border-[#f58220] opacity-95 pointer-events-none z-20" />
-      
-      {/* Decoración: Círculo Naranja abajo a la derecha */}
-      <div className="absolute -bottom-16 -right-16 w-40 h-40 rounded-full border-[12px] border-[#f58220] opacity-95 pointer-events-none z-20" />
+
 
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         

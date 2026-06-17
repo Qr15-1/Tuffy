@@ -56,7 +56,7 @@ export function FeaturesSection() {
       </div>
 
       {/* Parte inferior blanca: contiene las tarjetas que se superponen */}
-      <div className="container mx-auto px-6 lg:px-24 relative z-10 -mt-10 pb-20">
+      <div className="container mx-auto px-6 lg:px-24 relative z-10 -mt-10 pb-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
           {features.map((item, index) => (
             <motion.div
